@@ -28,4 +28,5 @@ ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/DATEHERE.csv.gz
 hadoop jar NAMEOFJAR.jar NAMEOFJAVADRIVER /user/cloudera/temperature_data/DATEHERE.csv /user/cloudera/output
 
 6. export to txt file
-hadoop fs -cat /user/cloudera/output/part-r-00000 > output.txt
+
+- hadoop fs -cat /user/cloudera/output/part-r-00000 > output.txt
