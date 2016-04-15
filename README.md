@@ -12,6 +12,7 @@ output data is in bin folder under output.txt
 ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/DATEHERE.csv.gz
 
 2. mount data
+
 -hadoop fs -mkdir /user/cloudera/temperature_data
 
 -hadoop fs -copyFromLocal DATEHERE.csv /user/cloudera/temperature_data
