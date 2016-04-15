@@ -19,8 +19,10 @@ ftp://ftp.ncdc.noaa.gov/pub/data/ghcn/daily/by_year/DATEHERE.csv.gz
 
 3. Write eclipse program
 4. Compile jar
-Go in eclipse project /bin foler and run
-jar cf NAMEOFJAR.jar ./*.class
+
+- Go in eclipse project /bin foler and run
+
+- jar cf NAMEOFJAR.jar ./*.class
 
 5. Run hadoop job
 hadoop jar NAMEOFJAR.jar NAMEOFJAVADRIVER /user/cloudera/temperature_data/DATEHERE.csv /user/cloudera/output
